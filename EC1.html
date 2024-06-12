@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+
+.navbar-brand img{
+            width: 80px;
+}
+.custom-img{
+    width: 80%; 
+    max-width: 600px; 
+    height: 220px;
+
+}
+.card-img-top {
+            width: 100%; 
+            height: 200px; 
+            object-fit: cover; 
+}
+.card {
+            height: 100%; 
+}
+.card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+}
+.btn-primary {
+            align-self: center; 
+           
+}
+.contact-info img {
+            width: 44px;
+            height: 30px; 
+            vertical-align: middle;
+}
+.section-custom {
+    background-color: #1e99e5; 
+}
+
+
+    </style>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="img/michi.png" alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link" href="#">Sobre Mí</a>
+              <a class="nav-link" href="#">Galería</a>
+              <a class="nav-link" href="#">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Miguel Grimaldo</h1>
+            <p class="lead">Venta de Accesorios de Animes y Mangas</p>
+        </div>
+    </header>
+
+    <section class="py-5 section-custom">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="img/manga1.jpeg" alt="Image" class="img-fluid custom-img">
+                </div>
+                <div class="col-md-6">
+                    <p>En nuestra tienda especializada en accesorios de anime y mangas, 
+                        encontrarás una amplia variedad de productos que celebran tus series y personajes favoritos. 
+                        Ofrecemos desde llaveros, camisetas, y figuras de colección hasta pósters y mochilas, 
+                        todos diseñados con la más alta calidad y detalle. 
+                        Cada artículo está cuidadosamente seleccionado para satisfacer tanto a coleccionistas 
+                        dedicados como a fans casuales del anime y manga. Visítanos y descubre el regalo perfecto 
+                        para cualquier entusiasta del anime, o simplemente para darte un capricho.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-warning">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/ka.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Katanas</h5>
+                            <p class="card-text">Elegantes y detalladas réplicas de tus espadas favoritas del anime, perfectas para coleccionistas.</p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/mangas.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Mangas</h5>
+                            <p class="card-text"> Los últimos y más populares volúmenes de tus series de manga preferidas, listos para que los disfrutes.</p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/accesorios.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Accesorios</h5>
+                            <p class="card-text">Una amplia variedad de productos, desde llaveros hasta figuras, para todos los fans del anime</p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-danger">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/dbz.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Manga "Dragon Ball"</h5>
+                            <p class="card-text">Vive las épicas batallas y aventuras de Goku y sus amigos mientras protegen la Tierra de poderosos enemigos.</p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/bleach1.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Manga "Bleach"</h5>
+                            <p class="card-text">Acompaña a Ichigo Kurosaki en su lucha contra espíritus malignos y descubre el mundo de los Shinigami.</p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/kkj1.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Manga "Jujutsu Kaisen"</h5>
+                            <p class="card-text">Únete a Yuji Itadori mientras combate maldiciones y enfrenta peligrosos espíritus en esta emocionante serie de acción sobrenatural.</p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/cz1.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Manga "Caballeros del Zodiaco"</h5>
+                            <p class="card-text">Sigue a los valientes caballeros en su misión de proteger a la diosa Atenea y combatir las fuerzas del mal.</p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p class="mb-0">©Miguel Grimaldo@ </p>
+            <p class="mb-0 contact-info">
+                <img src="img/wha.png" alt="WhatsApp Logo"> 
+                Contacto: 927490475
+            </p>
+        </div>
+    </footer>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
